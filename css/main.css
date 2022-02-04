@@ -69,3 +69,60 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+
+/* MY CSS */
+
+.current a:link {
+  background-color: brown;
+}
+
+.skip{
+  position: absolute;
+  left: -10000px;
+  top:auto;
+  width: 1px;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+p, ul{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, snas-serif;
+  font-size: 20px;
+}
+
+.jambox{
+  font-size: 40px;
+  padding-left: 380px;
+}
+
+.owner{
+  font-size: 35px;
+}
+
+.address{
+  font-size: 35px;
+}
+
+.jamboxstudio{
+  font-size: 50px;
+  padding-left: 380px;
+}
+
+.contact {
+  font-size: 30px;
+  padding-left: 490px;
+  padding-top: 70px;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.message{
+  font-size: 20px;
+}
